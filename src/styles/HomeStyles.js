@@ -9,6 +9,7 @@ export const MainDiv = {
     flexDirection:"column",
 
     fontFamily: "MyFont",
+    cursor:"default"
 }
 export const ScrollDiv = {
     display:"flex",
@@ -39,6 +40,7 @@ export const SubNavDiv = {
     alignItems: "center",
     boxSizing:"border-box",
     padding:"0px 20px 0px 20px",
+    cursor:"pointer",
     // border:"solid purple"
 }
 
@@ -144,6 +146,7 @@ export const BottomNav = {
 export const SocialImg = {
     height:"20px",
     width:"20px",
+    cursor:"pointer",
 }
 
 export const MusicDiv = (wide) => ({
