@@ -2,6 +2,7 @@ import React, {useEffect, useState} from "react";
 import * as HomeStyles from "../styles/HomeStyles";
 import Popup from 'reactjs-popup';
 import background from "../assets/background.jpg";
+import action from "../assets/action.jpg";
 import twitter from "../assets/social/twitter.png";
 import soundcloud from "../assets/social/soundcloud.png";
 import instagram from "../assets/social/instagram.png";
@@ -37,11 +38,14 @@ const Home = () => {
                         trigger={ <div style={HomeStyles.SubNavDiv}> Contact </div>} 
                         >
                         <div style={HomeStyles.PopupStyle}>
-                            <div>
-                                <b>Phone</b> (917) 238-6997 <br/>
-                            </div>
-                            <div>
-                                <b>Email</b> samdbenmeir@gmail.com
+                            <img src={action} style={HomeStyles.ContactImgStyle}/>
+                            <div style={HomeStyles.SubPopupStyle}>
+                                <div>
+                                    <b>Phone</b> (917) 238-6997 <br/>
+                                </div>
+                                <div>
+                                    <b>Email</b> samdbenmeir@gmail.com
+                                </div>
                             </div>
                         </div>
                     </Popup>

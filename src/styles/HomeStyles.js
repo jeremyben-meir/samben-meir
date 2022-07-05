@@ -86,6 +86,7 @@ export const ImgStyle = {
     width:"100%",
     height:"100%",
     objectFit: "cover",
+    objectPosition:"top"
 }
 
 export const HeaderDiv = {
@@ -102,15 +103,28 @@ export const SubHeaderDiv = {
 
 export const PopupStyle = {
     display:"flex",
-    flexDirection:"column",
+    flexDirection:"row",
     backgroundColor:"white",
     borderRadius:"10px",
     boxSizing:"border-box",
     padding:"30px",
+    alignItems:"center",
+    gap:"20px",
+}
+
+export const SubPopupStyle = {
+    display:"flex",
+    flexDirection:"column",
     alignItems:"flex-start",
     justifyContent:"center",
     gap:"10px",
+}
 
+export const ContactImgStyle = {
+    width:"100px",
+    height:"100px",
+    objectFit: "cover",
+    borderRadius:"50px"
 }
 
 export const BottomNav = {
