@@ -5,6 +5,7 @@ import background from "../assets/background.jpg";
 import action from "../assets/action.jpg";
 import twitter from "../assets/social/twitter.png";
 import soundcloud from "../assets/social/soundcloud.png";
+import youtube from "../assets/social/youtube.png";
 import instagram from "../assets/social/instagram.png";
 import spotify from "../assets/social/spotify.png";
 import ReactSoundCloud from 'react-soundcloud-embedded'
@@ -86,6 +87,7 @@ const Home = () => {
             <div style={HomeStyles.BottomNav}>
                 <img src={soundcloud} style={HomeStyles.SocialImg} onClick={() => window.open("https://soundcloud.com/samben-meir?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing")}/>
                 <img src={spotify} style={HomeStyles.SocialImg} onClick={() => window.open("https://open.spotify.com/artist/38RZtz6gGzK5zni0BW60yN?si=HvZ_ua7uQfqnW9Jm-mXNsQ")}/>
+                <img src={youtube} style={HomeStyles.SocialImg} onClick={() => window.open("https://www.youtube.com/channel/UCMb-VqdVxnaI7USmxgJnJ9A")}/>
                 <img src={twitter} style={HomeStyles.SocialImg} onClick={() => window.open("http://twitter.com/sambenmeir")}/>
                 <img src={instagram} style={HomeStyles.SocialImg} onClick={() => window.open("https://www.instagram.com/sam.benmeir/")}/>
             </div>
