@@ -67,9 +67,9 @@ const Home = () => {
                     </div>
                     <div style={HomeStyles.SubImgDiv2}>
                         <div>
-                            Sam Ben-Meir is a multi-faceted instrumentalist and composer. Originally from St. Louis, Missouri, Sam started playing the violin at 5 years of age. At 7 years, Sam and his family moved to New York where he continued to immerse himself in music, including learning to play the piano, double-bass and guitar. Sam later studied jazz at the University of Miami, and performed regularly at local venues.
+                            Sam Ben-Meir is a multi-faceted instrumentalist and composer. Originally from St. Louis, Missouri, Sam started playing the violin at 5 years of age. At 7 years, Sam and his family moved to New York where he continued to immerse himself in music, including learning to play the piano, double-bass, and guitar. Sam later studied jazz at the University of Miami, and performed regularly at local venues.
                             <br/><br/>
-                            In 2006, Sam returned to New York City to play restaurants and clubs while earning a PhD degree in Philosophy at the New School for Social Research. Throughout his career, Sam has worked with numerous noted and legendary musical talents. Sam currently lives on Manhattan’s Upper West Side where he passionately pursues his love of music as a singer, songwriter and composer.
+                            In 2006, Sam returned to New York City to play restaurants and clubs while earning a PhD degree in Philosophy at the New School for Social Research. Throughout his career, Sam has worked with numerous noted and legendary musical talents. Sam currently lives in New Hampshire where he passionately pursues his love of music as a singer, songwriter, and composer.
                         </div>
                     </div>
                 </div>
