@@ -131,3 +131,17 @@ export const SocialImg = {
     height:"20px",
     width:"20px",
 }
+
+export const MusicDiv = (wide) => ({
+    display:"flex",
+    flexDirection:"row",
+    width:"100%",
+    boxSizing:"border-box",
+    padding:wide?"40px":"0px 40px 40px 40px", 
+    gap:"40px"
+})
+
+export const SubMusicDiv = {
+    flex:"1",
+    height: "250px",
+}

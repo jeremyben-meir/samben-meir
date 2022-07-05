@@ -6,6 +6,7 @@ import twitter from "../assets/social/twitter.png";
 import soundcloud from "../assets/social/soundcloud.png";
 import instagram from "../assets/social/instagram.png";
 import spotify from "../assets/social/spotify.png";
+import ReactSoundCloud from 'react-soundcloud-embedded'
 
 const Home = () => {
 
@@ -68,16 +69,13 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div id="scrollable" style={HomeStyles.ImgDiv(windowSize.innerWidth>800)}>
-                    <div style={HomeStyles.SubImgDiv}>
-                        <img src={background} style={HomeStyles.ImgStyle}/>
+                <div style={HomeStyles.MusicDiv(windowSize.innerWidth>800)} id="scrollable">
+
+                    <div style={HomeStyles.SubMusicDiv}>
+                        <ReactSoundCloud height="250px" url={"https://soundcloud.com/samben-meir/sets/first-pass-drafts?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"} />
                     </div>
-                    <div style={HomeStyles.SubImgDiv2}>
-                        <div>
-                            Sam Ben-Meir is a multi-faceted instrumentalist and composer. Originally from St. Louis, Missouri, Sam started playing the violin at 5 years of age. At 7 years, Sam and his family moved to New York where he continued to immerse himself in music, including learning to play the piano, double-bass and guitar. Sam later studied jazz at the University of Miami, and performed regularly at local venues.
-                            <br/><br/>
-                            In 2006, Sam returned to New York City to play restaurants and clubs while earning a PhD degree in Philosophy at the New School for Social Research. Throughout his career, Sam has worked with numerous noted and legendary musical talents. Sam currently lives on Manhattan’s Upper West Side where he passionately pursues his love of music as a singer, songwriter and composer.
-                        </div>
+                    <div style={HomeStyles.SubMusicDiv}>
+                        <ReactSoundCloud height="250px" url={"https://soundcloud.com/samben-meir/sets/sweet-as-a-bird?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"} />
                     </div>
                 </div>
             </div>
