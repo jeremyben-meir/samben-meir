@@ -36,6 +36,7 @@
     ]
   },
   "devDependencies": {
+    "async": "^3.2.4",
     "reactjs-popup": "^2.0.5"
   }
 }
